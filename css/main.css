@@ -225,7 +225,7 @@ video {
 .backgroundvideo {
   height: 1004px;
   z-index: -5;
-  background-image: url("../img/stockholm.jpg");
+  background-image: url("img/stock.jpg");
   background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
