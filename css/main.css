@@ -120,21 +120,15 @@ ol li {
   height: 1004px;
 }
 
-.illustration1 {
-background-image: url("../img/road1.svg");
+.illustration {
+background-image: url("../img/road.svg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 1000px;
+height: 2000px;
 }
 
-.illustration2 {
-background-image: url("../img/road2.svg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 1000px;
-}
+
 
 .gothenburgpicture {
 background-image: url("../img/goth.jpg");
@@ -157,22 +151,16 @@ z-index: 2;
 
 @media screen and (max-width: 800px) {
 
-.illustration1 {
-background-image: url("../img/road1.svg");
+.illustration {
+background-image: url("../img/road.svg");
 background-position: center;
 background-repeat: no-repeat;
-height: 1004px;
+height: 2000px;
 background-size: cover;
 
 }
 
-.illustration2 {
-background-image: url("../img/road2.svg");
-background-position: center;
-background-repeat: no-repeat;
-height: 1004px;
-background-size: cover;
-}
+
 
 .bus img {
  position:fixed;
