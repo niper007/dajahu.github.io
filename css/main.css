@@ -215,6 +215,20 @@ background-size: cover;
   margin-left: 5%;
 }
 
+video {
+  display: none;
+}
+
+.backgroundvideo {
+  height: 1004px;
+  z-index: -5;
+  background-image: url("../img/stockholm.jpg");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
 }
 
 
