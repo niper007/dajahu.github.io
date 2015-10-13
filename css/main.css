@@ -5,7 +5,7 @@
 .donatenow a {
   float:right;
 }
-.h1 {
+.logo {
   width: 20em;
   margin-top: 2%;
   left: 2%;
@@ -228,6 +228,12 @@ background-position: center;
 background-repeat: no-repeat;
 height: 1004px;
 background-size: cover;
+}
+
+.logo {
+  width: 10em;
+  margin-top: 2%;
+  left: 2%;
 }
 
 }
