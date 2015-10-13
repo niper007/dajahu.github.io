@@ -218,6 +218,9 @@ background-size: cover;
 video {
   display: none;
 }
+#background {
+  display: none;
+}
 
 .backgroundvideo {
   height: 1004px;
