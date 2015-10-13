@@ -10,21 +10,21 @@
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
     <script>
-    $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            $(function() {
+              $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
-    });
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                  if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                  }
+                }
+              });
+            });
     </script>
 
     </head>
@@ -32,32 +32,30 @@
     <body>
         
         <div class="backgroundvideo">
-        <div class="donatenow">
-    <a href="#three">Scroll to Section Three</a>
-</div>
+         <div class="donatenow">
+          <a href="#three">Scroll to Section Three</a>
+         </div>
         <div class="container">
-        <img class="logo" src="img/logo.png">
-        <h2 class="h2"> IN A REVERSVE SITUATION<BR> WHEN YOU HAVE TO LEAVE YOU'R HOME</h2>
-       <video autoplay loop muted poster="img/road.png" id="background">
-<source src="img/war.mp4" type="video/mp4">
-</video>
-
-
-
+         <img class="logo" src="img/logo.png">
+          <h2 class="h2"> IN A REVERSVE SITUATION<BR> WHEN YOU HAVE TO LEAVE YOU'R HOME</h2>
+           <video autoplay loop muted poster="img/road.png" id="background">
+            <source src="img/war.mp4" type="video/mp4">
+           </video>
+           <div class="backgroundvideo1"></div>
         </div>
         </div>
         
         <div class="characterpicture">
-        <div class="container">
-        <div class="refugee"></div>
+         <div class="container">
+          <div class="refugee"></div>
         
-        </div>
+         </div>
         </div>
         
         <div class="illustration1">
-        <div class="container">
+         <div class="container">
         <div class="bus">
-         <img src="img/bus.png">
+         <img src="img/bus.svg">
         </div>
         </div>
         </div>
