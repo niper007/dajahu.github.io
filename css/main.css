@@ -223,13 +223,11 @@ video {
 }
 
 .backgroundvideo {
-  height: 1004px;
-  z-index: -5;
-  background-image: url("../img/stock.jpg");
-  background-position: center;
+ background-image: url("../img/road.png");
+background-position: center;
 background-repeat: no-repeat;
+height: 1004px;
 background-size: cover;
-
 }
 
 }
