@@ -176,7 +176,7 @@ ol li {
 }
 
 .characterpicture {
-  background-image: url("../img/jfr.png");
+  background-image: url("../img/jfr1.png");
 background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: center;
@@ -185,7 +185,7 @@ background-size: 100% auto;
 }
 
 .illustration {
-background-image: url("../img/road.svg");
+background-image: url("../img/road3.svg");
 background-position: center;
 background-repeat: no-repeat;
 -webkit-background-size: cover;
@@ -235,12 +235,11 @@ background-size: cover;
 
 
 .bus img {
- display: none;
-    position: fixed;
+ 
     bottom: 15%;
-    margin-left: 20%;
+    margin-left: 35%;
     width: 4rem; height: 8em;
-    border-top: 1px solid #000;
+    
     z-index: 1;
   }
 .container40 {
@@ -273,7 +272,7 @@ background-size: cover;
 }
 
 .characterpicture {
-  background-image: url("../img/jfr.png");
+  background-image: url("../img/jfr1.png");
 background-size: auto 100%;
         background-repeat: no-repeat;
         background-position: center;
