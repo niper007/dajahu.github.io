@@ -137,11 +137,12 @@ ol li {
     color: white;
 }
 
+
+
+
 .bus img {
- display: none;
-    position: fixed;
-    bottom: 35%;
-    margin-left: 40%;
+    margin-left: 37%;
+    margin-right: auto;
     width: 6rem; height: 12em;
 
     
