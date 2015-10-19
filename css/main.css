@@ -117,7 +117,7 @@ ol li {
     bottom: 35%;
     margin-left: 40%;
     width: 6rem; height: 12em;
-    border-top: 1px solid #000;
+    
     z-index: 1;
   }
 
@@ -149,10 +149,10 @@ ol li {
 
 .characterpicture {
   background-image: url("../img/jfr.png");
-background-size: auto 100%;
+background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: center;
-  height: 804px;
+  height: 1004px;
   z-index: 1;
 }
 
